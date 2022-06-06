@@ -1,13 +1,36 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "gtf_good_sans_trialbold";
+  src: url("assets/fonts/gtfgoodsanstrial-bold-webfont.woff2") format("woff2"),
+    url("assets/fonts/gtfgoodsanstrial-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: "gtf_good_sans_trialregular";
+  src: url("assets/fonts/gtfgoodsanstrial-regular-webfont.woff2")
+      format("woff2"),
+    url("assets/fonts/gtfgoodsanstrial-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "gtf_adieu_trialbold";
+  src: url("assets/fonts/gtfadieutrial-bold-webfont.woff2") format("woff2"),
+    url("assets/fonts/gtfadieutrial-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "gtf_adieu_trialregular";
+  src: url("assets/fonts/gtfadieutrial-regular-webfont.woff2") format("woff2"),
+    url("assets/fonts/gtfadieutrial-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }

@@ -1,0 +1,20 @@
+<svg width="100%" height="100%" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g filter="url(#circle_one)">
+        <ellipse cx="968.5" cy="246" rx="735.5" ry="632" fill="#D3CED9"/>
+    </g>
+    <g filter="url(#circle_two)">
+        <ellipse cx="148.5" cy="224" rx="529.5" ry="498" fill="#FAD59E"/>
+    </g>
+    <defs>
+        <filter id="circle_one" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+            <feGaussianBlur stdDeviation="250" result="circle_one_blur"/>
+        </filter>
+        <filter id="circle_two" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+            <feGaussianBlur stdDeviation="250" result="circle_two_blur"/>
+        </filter>
+    </defs>
+</svg>
