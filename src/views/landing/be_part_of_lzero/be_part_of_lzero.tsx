@@ -32,7 +32,7 @@ export function LandingPageBePartOfLZero() {
       </div>
       <input
         type="button"
-        className="text-center px-4 py-2 bg-[#E6951B] shadow rounded-lg h-9 lg:h-16 text-white w-full"
+        className="text-center px-4 py-2 bg-[#E6951B] shadow rounded-lg h-9 lg:h-16 text-white w-full lg:hidden"
         value="Fund Us"
       />
     </section>

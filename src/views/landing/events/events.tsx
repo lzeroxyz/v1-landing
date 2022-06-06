@@ -49,7 +49,7 @@ export function LandingPageEvents() {
     setEvents(
       eventsData.current.slice(1).map((event) => (
         <div className="flex w-1/3 mx-1 lg:mx-12 lg:h-1/5 drop-shadow-lg lg:drop-shadow-2xl">
-          <p className="absolute flex justify-center pl-2 pr-1 text-xs bg-white rounded-full w-fit lg:h-12 top-1 lg:left-6 lg:top-5 font-primary">
+          <p className="absolute flex items-center justify-center pl-2 pr-1 text-xs bg-white rounded-full w-fit lg:h-12 top-1 lg:left-6 lg:top-5 font-primary">
             {event.name}
           </p>
           <img
