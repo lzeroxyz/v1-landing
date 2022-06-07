@@ -10,7 +10,7 @@ export function LandingPageHero() {
         <div className="flex justify-between mx-5 lg:mx-32">
           <div id="logo" className="flex items-center">
             <img className="w-4 h-6 rounded-lg lg:w-11 lg:h-20" src={Logo} />
-            <p className="text-base lg:text-4xl w-28 h-full font-primary font-boldslanted text-[#E6951B] flex items-center">
+            <p className="text-base lg:text-4xl w-28 h-full font-boldslanted text-[#E6951B] flex items-center">
               Zero
             </p>
           </div>
@@ -20,7 +20,7 @@ export function LandingPageHero() {
           >
             <input
               type="button"
-              className="px-4 py-2 bg-[#E6951B] shadow rounded-lg text-sm font-bold text-gray-50 lg:w-40 lg:h-16"
+              className="px-4 py-2 bg-[#E6951B] shadow rounded-lg text-sm font-secondary font-bold text-gray-50 lg:w-40 lg:h-16"
               value="Join Waitlist"
               onClick={() => {
                 console.log("hello");

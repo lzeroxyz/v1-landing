@@ -62,7 +62,7 @@ export function LandingPageHowItWorks() {
                 {feature.title}
               </h1>
             )}
-            <p className="text-base font-secondary text-[#474747]">
+            <p className="text-base font-secondaryregular text-[#474747]">
               {feature.description}
             </p>
           </div>

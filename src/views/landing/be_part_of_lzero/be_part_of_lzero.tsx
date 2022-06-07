@@ -14,7 +14,7 @@ export function LandingPageBePartOfLZero() {
             <p className="mb-5 text-base font-bold text-gray-800 lg:mb-10 lg:text-4xl font-primary">
               Want to be a part of LZero?
             </p>
-            <p className="text-xs text-gray-800 font-secodaryregular lg:text-2xl lg:mb-14">
+            <p className="text-xs text-gray-800 font-secondaryregular lg:text-2xl lg:mb-14">
               More users = more listings = more choice! <br /> We aim to become
               the #1 Web3 P2P service providing platform, and would love to have
               you on board!
@@ -23,7 +23,7 @@ export function LandingPageBePartOfLZero() {
           <div className="flex justify-center w-4/5">
             <input
               type="button"
-              className="hidden lg:block text-center px-4 py-2 bg-[#E6951B] shadow rounded-lg h-16 text-white w-2/4"
+              className="hidden lg:block text-center px-4 py-2 bg-[#E6951B] shadow rounded-lg h-16 text-white w-3/4"
               value="Fund Us"
             />
           </div>

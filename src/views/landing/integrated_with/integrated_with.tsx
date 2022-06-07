@@ -38,7 +38,7 @@ export function LandingPageIntegratedWith() {
       id="partners"
       className="flex flex-col justify-between mx-5 lg:py-8 lg:mx-32"
     >
-      <p className="w-full mb-2 text-base font-bold text-center font-primary lg:mb-5 text-lg:text-3xl">
+      <p className="w-full text-[#333333] mb-2 text-base font-bold text-center font-primary lg:mb-5 lg:text-3xl">
         Integrated with
       </p>
       <div className="flex justify-between w-full h-9 lg:h-32">{partners}</div>

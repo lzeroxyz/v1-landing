@@ -35,7 +35,7 @@ export function LandingPageEvents() {
     if (primaryEvent !== null) {
       setPrimaryEvent(
         <div className="w-full h-full mb-3 lg:mt-5 lg:mb-8 drop-shadow-lg lg:drop-shadow-2xl">
-          <p className="absolute flex items-center px-3 text-xs bg-white rounded-full h-3.5 lg:h-12 left-2 top-2 lg:left-6 lg:top-5 font-primary">
+          <p className="absolute flex items-center text-[#333333] px-3 text-xs bg-white rounded-full h-6 lg:h-12 left-2 top-2 lg:left-6 lg:top-5 font-primary">
             {primaryEvent.name}
           </p>
           <img
@@ -48,8 +48,8 @@ export function LandingPageEvents() {
 
     setEvents(
       eventsData.current.slice(1).map((event) => (
-        <div className="flex w-1/3 mx-1 lg:mx-12 lg:h-1/5 drop-shadow-lg lg:drop-shadow-2xl">
-          <p className="absolute flex items-center justify-center pl-2 pr-1 text-xs bg-white rounded-full w-fit lg:h-12 top-1 lg:left-6 lg:top-5 font-primary">
+        <div className="flex w-1/3 mx-1 lg:mx-12 lg:h-1/5 drop-shadow-lg lg:drop-shadow-2xl first:ml-0 last:mr-0">
+          <p className="absolute flex items-center text-[#333333] justify-center px-2 text-xs bg-white rounded-full w-fit h-6 lg:h-12 sm:left-1 lg:left-6 top-1 lg:top-5 font-primary">
             {event.name}
           </p>
           <img
