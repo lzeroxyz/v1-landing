@@ -10,7 +10,7 @@ export function LandingPageHero() {
         <div className="flex justify-between mx-5 lg:mx-32">
           <div id="logo" className="flex items-center">
             <img className="w-4 h-6 rounded-lg lg:w-11 lg:h-20" src={Logo} />
-            <p className="text-base lg:text-4xl w-28 h-full font-boldslanted text-[#E6951B] flex items-center">
+            <p className="text-base lg:text-4xl w-28 h-full font-boldslanted text-[#E6951B] flex items-center font-primary">
               Zero
             </p>
           </div>
