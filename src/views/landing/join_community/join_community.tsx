@@ -14,7 +14,7 @@ export function LandingPageJoinCommunity() {
         </p>
         <div className="flex items-center justify-around w-2/6 lg:w-1/5">
           <div className="flex items-center justify-center bg-[#E5951C] h-6 w-6 lg:w-16 lg:h-16 rounded-md lg:rounded-2xl">
-            <a href="">
+            <a href="https://twitter.com/lzero_xyz">
               <img src={TwitterLogoSVG} />
             </a>
           </div>
@@ -24,7 +24,7 @@ export function LandingPageJoinCommunity() {
             </a>
           </div>
           <div className="flex items-center justify-center bg-[#E5951C] h-6 w-6 lg:w-16 lg:h-16 rounded-md lg:rounded-2xl">
-            <a href="">
+            <a href="https://gitcoin.co/grants/6123/lzero-the-one-stop-shop-for-all-your-group-travel">
               <img src={GitcoinLogoSVG} />
             </a>
           </div>
