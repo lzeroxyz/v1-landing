@@ -8,7 +8,7 @@ export function LandingPageFooter() {
       <div className="flex flex-col justify-center w-full h-80">
         <div className="inline-flex items-end justify-end w-40 h-14">
           <img className="h-full rounded-lg w-11" src={Logo} />
-          <p className="text-4xl text-yellow-500 w-28 h-5/6 font-boldslanted">
+          <p className="text-4xl text-yellow-500 w-28 h-5/6 font-primary">
             Zero
           </p>
         </div>
