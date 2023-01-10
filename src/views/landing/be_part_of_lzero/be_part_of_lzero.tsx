@@ -15,24 +15,26 @@ export function LandingPageBePartOfLZero() {
               Want to be a part of LZero?
             </p>
             <p className="text-xs text-gray-800 font-secondaryregular lg:text-2xl lg:mb-14">
-              More users = more listings = more choice! <br /> We aim to become
-              the #1 Web3 P2P service providing platform, and would love to have
-              you on board!
+              We aim to build easy-to-use Web3 tools for communities and
+              aim to to enable vibrant platforms for social services on the blockchain.
+              We would love to have you on board!
             </p>
           </div>
           <div className="flex justify-center w-4/5">
+            <a href='https://discord.gg/gyrn8A2wCz'>
             <input
               type="button"
-              className="hidden lg:block text-center px-4 py-2 bg-[#E6951B] shadow rounded-lg h-16 text-white w-3/4"
-              value="Fund Us"
+              className="hidden lg:block text-center px-4 py-2 bg-[#E6951B] shadow rounded-lg h-16  text-white w-20"
+              value="Join"
             />
+            </a>
           </div>
         </div>
         <img src={PhoneSVG} className="relative w-2/4 lg:w-2/5" />
       </div>
       <input
         type="button"
-        className="text-center px-4 py-2 bg-[#E6951B] shadow rounded-lg h-9 lg:h-16 text-white w-full lg:hidden"
+        className="text-left px-4 py-2 bg-[#E6951B] shadow rounded-lg h-9 lg:h-16 text-white w-full lg:hidden"
         value="Fund Us"
       />
     </section>

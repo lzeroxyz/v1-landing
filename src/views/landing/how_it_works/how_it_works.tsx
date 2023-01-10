@@ -99,7 +99,7 @@ export function LandingPageHowItWorks() {
       className="flex flex-col justify-between mx-5 lg:py-8 lg:mx-64"
     >
       <p className="w-full text-small lg:text-3xl text-center font-bold font-primary mb-5 text-[#333333]">
-        How LZero Works
+        Starting with an expenses management dApp
       </p>
       <div className="flex flex-col">{features}</div>
     </section>
