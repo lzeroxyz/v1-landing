@@ -16,7 +16,7 @@ export function LandingPageBePartOfLZero() {
             </p>
             <p className="text-xs text-gray-800 font-secondaryregular lg:text-2xl lg:mb-14">
               We aim to build easy-to-use Web3 tools for communities and
-              aim to to enable vibrant platforms for social services on the blockchain.
+              aim to tonable vibrant platforms for social services on the blockchain.
               We would love to have you on board!
             </p>
           </div>
